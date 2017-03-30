@@ -23,5 +23,5 @@ deployment:
   staging:
     branch: master
     heroku:
-      appname: protected-crag-48391
+      appname: sleepy-island-56092
 
