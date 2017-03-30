@@ -8,10 +8,6 @@ machine:
   ruby:
     version: 1.9.3-p0-falcon
 
-  # Version of php to use
-  php:
-    version: 5.4.5
-
 ## Customize dependencies
 dependencies:
   pre:
