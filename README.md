@@ -1,3 +1,7 @@
-# training
-## I'm so sleepy.
-### I'll do my works tomorrow!
+# training用 のリポジトリです
+単純なgitのtrainingだけではなく、
+
+* herokuとの繋ぎこみテスト
+* circleCIの適用テスト
+
+といったgithubとの連携サービスのテストも兼ねています。
