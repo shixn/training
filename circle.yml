@@ -16,7 +16,7 @@ dependencies:
 ## Customize test commands
 test:
   override:
-    - bundle exec htmlproofer ./public
+    - bundle exec htmlproofer --check_html ./public
 
 ## Customize deployment commands
 deployment:
