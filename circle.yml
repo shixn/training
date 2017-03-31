@@ -1,8 +1,9 @@
 ## Customize the test machine
 machine:
 
+  # Set the timezone
   timezone:
-    Asia/Tokyo # Set the timezone
+    Asia/Tokyo 
 
   # Version of ruby to use
   ruby:
@@ -17,6 +18,7 @@ dependencies:
 test:
   override:
     - bundle exec htmlproofer --check-html ./public
+    - git diff > $CIRCLE_ARTIFACTS
 
 ## Customize deployment commands
 deployment:
