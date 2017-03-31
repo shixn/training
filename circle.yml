@@ -18,7 +18,7 @@ dependencies:
 test:
   override:
     - bundle exec htmlproofer --check-html ./public
-    - git diff > $CIRCLE_ARTIFACTS
+    - git diff > $CIRCLE_ARTIFACTS/git-diff.log
 
 ## Customize deployment commands
 deployment:
